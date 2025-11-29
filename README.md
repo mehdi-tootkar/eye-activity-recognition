@@ -11,9 +11,9 @@ To achieve this, we perform **feature engineering** inspired by research in eye-
 - Time-related features (average interval between gaze points, variation in intervals)  
 
 With these engineered features, several **machine learning models** were applied:
-- Logistic Regression (60% accuracy)  
-- Random Forest (70% accuracy)  
-- XGBoost (72.5% accuracy, best performance)  
+- Logistic Regression (70% accuracy)  
+- Random Forest (80% accuracy)  
+- XGBoost (82.5% accuracy, best performance)  
 - SVM, MLP, and others for comparison  
 
 The evaluation followed a **user-wise split** (19 participants for training, 5 participants for testing), ensuring that the model is tested on unseen users for a realistic scenario.
